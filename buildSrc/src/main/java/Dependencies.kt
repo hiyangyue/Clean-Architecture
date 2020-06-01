@@ -24,6 +24,9 @@ object Version {
     // router
     const val arouter_api = "1.5.0"
     const val arouter_compiler = "1.2.1"
+
+    // monitor
+    const val leakCanary = "2.3"
 }
 
 object Libs {
@@ -46,6 +49,9 @@ object Libs {
     // router
     const val arouter_api = "com.alibaba:arouter-api:${Version.arouter_api}"
     const val arouter_compiler = "com.alibaba:arouter-compiler:${Version.arouter_compiler}"
+
+    // monitor
+    const val leakCanary = "com.squareup.leakcanary:leakcanary-android:${Version.leakCanary}"
 }
 
 object DefaultConfig {
