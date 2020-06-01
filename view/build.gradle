@@ -1,0 +1,7 @@
+apply from: "$rootDir/common-android-library.gradle"
+
+dependencies {
+    implementation Libs.kotlin
+    implementation Libs.glide
+    annotationProcessor Libs.glideCompiler
+}
