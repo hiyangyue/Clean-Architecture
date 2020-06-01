@@ -7,6 +7,7 @@ object Version {
     const val appcompat = "1.1.0"
     const val core_ktx = "1.2.0"
     const val kotlin = "1.3.71"
+    const val gradle = "3.6.3"
 }
 
 object Libs {
@@ -24,7 +25,7 @@ object Libs {
 
 object DefaultConfig {
     const val minSdkVersion = 21
-    const val targetSdkVersion = 2
+    const val targetSdkVersion = 21
     const val versionCode = 1
     const val versionName = "1.0"
 }
