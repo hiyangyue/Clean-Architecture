@@ -1,2 +1,3 @@
 rootProject.name='LeetCode-Android'
 include ':app'
+include ':network'

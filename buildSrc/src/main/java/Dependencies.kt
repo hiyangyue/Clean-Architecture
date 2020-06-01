@@ -8,6 +8,9 @@ object Version {
     const val core_ktx = "1.2.0"
     const val kotlin = "1.3.71"
     const val gradle = "3.6.3"
+    const val retrofitVersion = "2.7.1"
+    const val okhttpVersion = "4.3.1"
+    const val converter_gson = "2.5.0"
 }
 
 object Libs {
@@ -21,6 +24,10 @@ object Libs {
     const val core_ktx = "androidx.core:core-ktx:${Version.core_ktx}"
 
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Version.kotlin}"
+    const val retrofit = "com.squareup.retrofit2:retrofit:${Version.retrofitVersion}"
+    const val okhttpLoggingInterceptor =
+        "com.squareup.okhttp3:logging-interceptor:${Version.okhttpVersion}"
+    const val converter_gson = "com.squareup.retrofit2:converter-gson:${Version.converter_gson}"
 }
 
 object DefaultConfig {

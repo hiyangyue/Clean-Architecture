@@ -1,0 +1,8 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    api Libs.retrofit
+    implementation Libs.kotlin
+    implementation Libs.okhttpLoggingInterceptor
+    implementation Libs.converter_gson
+}
