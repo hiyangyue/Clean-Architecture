@@ -49,5 +49,6 @@ object ApplicationConfiguration {
 }
 
 object Modules {
-    const val network = ":network"
+    const val network = ":common:network"
+    const val view = ":common:view"
 }
