@@ -22,11 +22,12 @@ object Version {
     const val converter_gson = "2.5.0"
 
     // router
-    const val arouter_api = "1.5.0"
-    const val arouter_compiler = "1.2.1"
+    const val arouter_api = "1.4.0"
+    const val arouter_compiler = "1.2.2"
 
     // monitor
     const val leakCanary = "2.3"
+    const val blockCanary = "1.5.0"
 }
 
 object Libs {
@@ -52,6 +53,7 @@ object Libs {
 
     // monitor
     const val leakCanary = "com.squareup.leakcanary:leakcanary-android:${Version.leakCanary}"
+    const val blockCanary = "com.github.markzhai:blockcanary-android:${Version.blockCanary}"
 }
 
 object DefaultConfig {
@@ -76,4 +78,6 @@ object Modules {
 
     const val feature_mine = ":feature:mine"
     const val feature_notification = ":feature:notification"
+    const val foundation = ":common:foundation"
+    const val debug = ":common:debug"
 }
