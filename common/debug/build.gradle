@@ -2,4 +2,5 @@ apply from: "$rootDir/common-android-library.gradle"
 
 dependencies {
     debugImplementation Libs.leakCanary
+    implementation Libs.blockCanary
 }
