@@ -1,5 +1,6 @@
 object Version {
     const val glide = "4.11.0"
+    const val glideCompiler = "4.11.0"
     const val constraintlayout = "1.1.3"
     const val junit = "4.12"
     const val androidx_junit = "1.1.1"
@@ -15,6 +16,7 @@ object Version {
 
 object Libs {
     const val glide = "com.github.bumptech.glide:glide:${Version.glide}"
+    const val glideCompiler = "com.github.bumptech.glide:compiler:${Version.glideCompiler}"
     const val constraintlayout =
         "androidx.constraintlayout:constraintlayout:${Version.constraintlayout}"
     const val junit = "junit:junit:${Version.junit}"
