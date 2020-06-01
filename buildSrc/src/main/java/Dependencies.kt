@@ -51,4 +51,7 @@ object ApplicationConfiguration {
 object Modules {
     const val network = ":common:network"
     const val view = ":common:view"
+
+    const val feature_mine = ":feature:mine"
+    const val feature_notification = ":feature:notification"
 }
