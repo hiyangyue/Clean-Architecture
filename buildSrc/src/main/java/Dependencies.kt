@@ -45,3 +45,7 @@ object AndroidConfiguration {
 object ApplicationConfiguration {
     const val applicationId = "cn.lingkou.app"
 }
+
+object Modules {
+    const val network = ":network"
+}
