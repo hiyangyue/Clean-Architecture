@@ -1,4 +1,4 @@
-package cn.lingkou.middlebusiness
+package cn.lingkou.foundation
 
 import org.junit.Test
 
