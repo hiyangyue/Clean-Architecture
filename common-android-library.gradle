@@ -21,4 +21,7 @@ android {
 
 dependencies {
     implementation Libs.kotlin
+    testImplementation Libs.junit
+    androidTestImplementation Libs.androidx_junit
+    androidTestImplementation Libs.espresso_core
 }
