@@ -1,17 +1,29 @@
 object Version {
-    const val glide = "4.11.0"
-    const val glideCompiler = "4.11.0"
-    const val constraintlayout = "1.1.3"
-    const val junit = "4.12"
-    const val androidx_junit = "1.1.1"
-    const val espresso_core = "3.2.0"
-    const val appcompat = "1.1.0"
+
+    // base
     const val core_ktx = "1.2.0"
     const val kotlin = "1.3.71"
     const val gradle = "3.6.3"
+
+    // test
+    const val junit = "4.12"
+    const val androidx_junit = "1.1.1"
+    const val espresso_core = "3.2.0"
+
+    // view
+    const val glide = "4.11.0"
+    const val glideCompiler = "4.11.0"
+    const val constraintlayout = "1.1.3"
+    const val appcompat = "1.1.0"
+
+    // network
     const val retrofitVersion = "2.7.1"
     const val okhttpVersion = "4.3.1"
     const val converter_gson = "2.5.0"
+
+    // router
+    const val arouter_api = "1.5.0"
+    const val arouter_compiler = "1.2.1"
 }
 
 object Libs {
@@ -30,6 +42,10 @@ object Libs {
     const val okhttpLoggingInterceptor =
         "com.squareup.okhttp3:logging-interceptor:${Version.okhttpVersion}"
     const val converter_gson = "com.squareup.retrofit2:converter-gson:${Version.converter_gson}"
+
+    // router
+    const val arouter_api = "com.alibaba:arouter-api:${Version.arouter_api}"
+    const val arouter_compiler = "com.alibaba:arouter-compiler:${Version.arouter_compiler}"
 }
 
 object DefaultConfig {
