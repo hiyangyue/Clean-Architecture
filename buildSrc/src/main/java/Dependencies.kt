@@ -20,6 +20,20 @@ object Libs {
     const val core_ktx = "androidx.core:core-ktx:${Version.core_ktx}"
 
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Version.kotlin}"
+}
 
+object DefaultConfig {
+    const val minSdkVersion = 21
+    const val targetSdkVersion = 2
+    const val versionCode = 1
+    const val versionName = "1.0"
+}
 
+object AndroidConfiguration {
+    const val compileSdkVersion = 29
+    const val buildToolsVersion = "29.0.3"
+}
+
+object ApplicationConfiguration {
+    const val applicationId = "cn.lingkou.app"
 }
