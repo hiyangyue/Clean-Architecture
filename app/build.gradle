@@ -23,6 +23,20 @@ android {
         }
     }
 
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def appId = variant.applicationId // eg -> cn.lingkou.app
+            def versionName = variant.versionName
+            def versionCode = variant.versionCode
+            def flavorName = variant.flavorName // eg -> free
+            def buildType = variant.buildType // eg -> debug
+            def variantName = variant.name // eg -> freeDebug
+
+            def formattedDate = new Date().format('yyyy:MM:dd HH:mm')
+            def apkName = "LeetCode-${variantName}-${versionName}-${versionCode}-${formattedDate}.apk"
+            output.outputFileName = apkName
+        }
+    }
 }
 
 dependencies {
