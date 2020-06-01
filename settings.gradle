@@ -6,4 +6,14 @@ include ':feature:mine'
 include ':feature:notification'
 include ':common:corebusiness'
 include ':common:foundation'
-include ':common:debug'
+
+
+File localProperties = new File('local.properties')
+if (localProperties.exists()) {
+    Properties properties = new Properties()
+    properties.load(localProperties.newDataInputStream())
+    def buildEnv = properties.getProperty('buildType')
+    if (buildEnv != null && buildEnv.contains("debug")) {
+        include ':common:debug'
+    }
+}
