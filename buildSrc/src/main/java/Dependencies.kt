@@ -17,7 +17,7 @@ object Version {
     const val appcompat = "1.1.0"
 
     // network
-    const val retrofitVersion = "2.7.1"
+    const val retrofitVersion = "2.5.0"
     const val okhttpVersion = "4.3.1"
     const val converter_gson = "2.5.0"
 
