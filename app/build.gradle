@@ -45,9 +45,8 @@ dependencies {
     implementation Libs.appcompact
     implementation Libs.core_ktx
     implementation Libs.constraintlayout
-    implementation project(Modules.view)
-    implementation project(Modules.network)
     testImplementation Libs.junit
+    debugImplementation Libs.leakCanary
     androidTestImplementation Libs.androidx_junit
     androidTestImplementation Libs.espresso_core
 }
