@@ -28,6 +28,9 @@ object Version {
     // monitor
     const val leakCanary = "2.3"
     const val blockCanary = "1.5.0"
+
+    // db
+    const val room = "2.1.0"
 }
 
 object Libs {
@@ -54,6 +57,10 @@ object Libs {
     // monitor
     const val leakCanary = "com.squareup.leakcanary:leakcanary-android:${Version.leakCanary}"
     const val blockCanary = "com.github.markzhai:blockcanary-android:${Version.blockCanary}"
+
+    // db
+    const val room = "androidx.room:room-runtime:${Version.room}"
+    const val roomCompiler = "androidx.room:room-compiler:${Version.room}"
 }
 
 object DefaultConfig {
