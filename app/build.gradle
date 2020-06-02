@@ -45,6 +45,7 @@ dependencies {
     implementation Libs.appcompact
     implementation Libs.core_ktx
     implementation Libs.constraintlayout
+    implementation project(Modules.foundation)
     testImplementation Libs.junit
     debugImplementation Libs.leakCanary
     androidTestImplementation Libs.androidx_junit
