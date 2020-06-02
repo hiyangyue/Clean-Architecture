@@ -87,4 +87,5 @@ object Modules {
     const val feature_notification = ":feature:notification"
     const val foundation = ":common:foundation"
     const val debug = ":common:debug"
+    const val core_business = ":common:corebusiness"
 }
